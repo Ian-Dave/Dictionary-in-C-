@@ -1,0 +1,82 @@
+// Ching, Ian Dave R. 12-CPE-01
+// If-Else Dictionary in C++
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    while (true) {
+        string word;
+        cout << "Search a Word (or type 'exit' to quit): ";
+        getline(cin, word);
+
+        if (word == "Enough") {
+            break;
+        } else if (word == "Resistor") {
+            cout << "Limits current flow and divides voltage" << endl;
+        } else if (word == "Capacitor") {
+            cout << "Stores and releases electrical energy" << endl;
+        } else if (word == "Inductor") {
+            cout << "Stores energy in a magnetic field" << endl;
+        } else if (word == "Diode") {
+            cout << "Allows current to flow in one direction" << endl;
+        } else if (word == "Zener Diode") {
+            cout << "Maintains a constant voltage" << endl;
+        } else if (word == "LED (LIGHT EMITTING DIODE)") {
+            cout << "Emits light when current flows" << endl;
+        } else if (word == "Transistor") {
+            cout << "Amplifies or switches electronic signals" << endl;
+        } else if (word == "Mosfet") {
+            cout << "A type of transistor with high efficiency" << endl;
+        } else if (word == "Photodiode") {
+            cout << "Converts light into electrical current" << endl;
+        } else if (word == "Triac") {
+            cout << "Controls AC power flow" << endl;
+        } else if (word == "Optocoupler") {
+            cout << "Isolates sections of a circuits using light" << endl;
+        } else if (word == "Relay") {
+            cout << "An electromechanical switch" << endl;
+        } else if (word == "Transformer") {
+            cout << "Transfer electrical energy between circuits" << endl;
+        } else if (word == "Battery") {
+            cout << "Stores and supplies electrical energy" << endl;
+        } else if (word == "Fuse") {
+            cout << "Protects circuits from overcurrent" << endl;
+        } else if (word == "Thermistor") {
+            cout << "A temperature-sensitive resistor" << endl;
+        } else if (word == "Crystal") {
+            cout << "Generates precise frequency signals" << endl;
+        } else if (word == "Microcontroller") {
+            cout << "A small computer on a chip" << endl;
+        } else if (word == "Microprocessor") {
+            cout << "The brain of a computing system" << endl;
+        } else if (word == "555 Timer IC") {
+            cout << "Generates timing signals" << endl;
+        } else if (word == "Voltage Regulator") {
+            cout << "Maintains a constant output voltage" << endl;
+        } else if (word == "DC-DC Converter") {
+            cout << "Converts one DC voltage to another" << endl;
+        } else if (word == "AC-DC Converter") {
+            cout << "Converts AC power to DC" << endl;
+        } else if (word == "LCD (Liquid Crystal Display)") {
+            cout << "A Display Technology" << endl;
+        } else if (word == "Hall Effect Sensor") {
+            cout << "Detects Magnetic Fields" << endl;
+        } else if (word == "Piezoelectric Sensor") {
+            cout << "Converts pressure into electrical signals" << endl;
+        } else if (word == "Buzzer") {
+            cout << "Produces sound from electrical signals" << endl;
+        } else if (word == "Antenna") {
+            cout << "Transmits or receives electromagnetic waves" << endl;
+        } else if (word == "RFID Tag") {
+            cout << "Stores and transmits data wirelessly" << endl;
+        } else if (word == "Heat Sink") {
+            cout << "Disspates excess heat from components" << endl;
+        } else {
+            cout << "The word doesn't exist in this program" << endl;
+        }
+    }
+
+    return 0;
+}
